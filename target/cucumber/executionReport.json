@@ -1,0 +1,224 @@
+[
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-04T14:59:36.777Z",
+        "line": 10,
+        "name": "Create new Hotel Booking.",
+        "description": "",
+        "id": "client-to-create-a-hotel-booking.;create-new-hotel-booking.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9300000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User on the Hotel Booking Form page",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_on_the_hotel_booking_form_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the Firstname",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_enters_the_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters the Surname",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_enters_the_surname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the Price",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_enters_the_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User selects the Deposit",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_selects_the_deposit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects the Check-in date",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_selects_the_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User selects the Check-out date",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_selects_the_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on the Save button",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3957000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify the confirmed booking record",
+            "match": {
+              "location": "stepDefinitions.createHotelBooking.user_verify_the_confirmed_booking_record()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest_NewBooking"
+          },
+          {
+            "name": "@CreateBooking"
+          }
+        ]
+      }
+    ],
+    "name": "Client to Create a hotel booking.",
+    "description": "",
+    "id": "client-to-create-a-hotel-booking.",
+    "keyword": "Feature",
+    "uri": "file:src/test/Features/createHotelBooking.feature",
+    "tags": [
+      {
+        "name": "@RegressionTest_NewBooking",
+        "type": "Tag",
+        "location": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-04T14:59:51.001Z",
+        "line": 10,
+        "name": "Delete existing Hotel Booking.",
+        "description": "",
+        "id": "client-to-delete-the-existing-hotel-booking.;delete-existing-hotel-booking.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2976000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User on the Hotel Booking Form pages",
+            "match": {
+              "location": "stepDefinitions.deleteHotelBooking.user_on_the_hotel_booking_form_pages()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 583000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on the Delete button",
+            "match": {
+              "location": "stepDefinitions.deleteHotelBooking.user_clicks_on_the_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1653000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Existing record got deleted successfully",
+            "match": {
+              "location": "stepDefinitions.deleteHotelBooking.existing_record_got_deleted_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest_DeleteBooking"
+          },
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      }
+    ],
+    "name": "Client to Delete the existing hotel booking.",
+    "description": "",
+    "id": "client-to-delete-the-existing-hotel-booking.",
+    "keyword": "Feature",
+    "uri": "file:src/test/Features/deleteHotelBooking.feature",
+    "tags": [
+      {
+        "name": "@RegressionTest_DeleteBooking",
+        "type": "Tag",
+        "location": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

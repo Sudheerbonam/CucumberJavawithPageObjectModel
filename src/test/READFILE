@@ -1,0 +1,13 @@
+Project: Hotel Booking
+Author: Sudheer Bonam
+Framework: Selenium PageFactory model with Cucumber-BDD
+Language Bindings: JAVA
+Browser:Chrome
+URL: http://hotel-test.equalexperts.io/ (Assigned @ Properties file)
+Webdriver:Declared @ BaseClass
+Data fetching from : @ jsonRead class
+Screenshots saved: @ screenShots
+POJO Class created for json fields: @ CreateHotelBooking
+Run: @ testRunner (Please use this class to run)
+
+JAR File for JSON input file, please install into projectfilepath.
